@@ -40,5 +40,5 @@ INSERT INTO movies (title, year, show_time) VALUES ('Spider-man: Homecoming', 20
 UPDATE movies SET show_time = '21:00' WHERE title = 'Guardians of the Galaxy';
 UPDATE movies SET show_time = '22:00' WHERE title = 'Guardians of the Galaxy 2';
 ## Extension
-
+DELETE FROM `table` WHERE id IN (264, 265)
 1. Research how to delete multiple entries from your table in a single command.
